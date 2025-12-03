@@ -25,12 +25,15 @@ const Hero = () => {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4">
-                        <button className="group bg-gradient-to-r from-primary to-secondary hover:from-primary-dark hover:to-secondary-dark text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 cursor-pointer">
+                        <a
+                            href="https://empreendedorismo-mpv-ml.vercel.app"
+                            className="group bg-gradient-to-r from-primary to-secondary hover:from-primary-dark hover:to-secondary-dark text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-primary/40 transition-all flex items-center justify-center gap-2 cursor-pointer"
+                        >
                             Começar Agora
                             <ArrowRight className="group-hover:translate-x-1 transition-transform" />
-                        </button>
+                        </a>
                         <a
-                            href="/app"
+                            href="https://empreendedorismo-mpv-ml.vercel.app"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-8 py-4 rounded-full font-bold text-lg text-gray-700 border-2 border-gray-200 hover:border-primary hover:text-primary transition-all flex items-center justify-center gap-2"
