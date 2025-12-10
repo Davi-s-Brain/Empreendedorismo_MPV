@@ -7,7 +7,7 @@ import time
 app = Flask(__name__)
 CORS(app)
 
-BULB_IP = "192.168.0.63" 
+BULB_IP = "192.168.0.33" 
 
 # Variáveis Globais
 bulb = None
